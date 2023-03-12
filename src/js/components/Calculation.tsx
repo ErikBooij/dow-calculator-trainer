@@ -174,7 +174,7 @@ const getStepSix = ({ year }: ChallengeDate, previousValue: number): StepOutput 
 
     return {
         el: <CalculationStep value={ value } stepNumber={ 6 }>
-            Add the constant value depending on the month:<br/><br/>
+            Add the constant value depending on the century:<br/><br/>
             <div className="grid grid-cols-2 gap-2 w-full">
                 {
                     Object.keys(yearlyMutations).map((year) => (
