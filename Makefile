@@ -1,3 +1,7 @@
+.PHONY: build
+build:
+	./node_modules/.bin/parcel build src/pages/index.html --dist-dir ./dist
+
 .PHONY: watch
 watch:
-	npx parcel src/pages/index.html
+	./node_modules/.bin/parcel src/pages/index.html
